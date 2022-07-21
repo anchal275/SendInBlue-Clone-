@@ -121,22 +121,379 @@
     <!-- -------------------------------------------------------------------------------------- -->
     <div id="headingAF"><h2>All Features</h2></div>
     <div id="table">
-        <table>
+        <table class="table_style">
             <tr>
-                <th>Marketing</th>
-                <th>Free</th>
-                <th>Lite</th>
-                <th>Premium</th>
-                <th>Enterprise</th>
+                <th class="head_col"><p>Marketing</p></th>
+                <th><p>Free <br> <span class="unhighlite">Rs.0/month</span></p></th>
+                <th><p>Lite<br> <span class="unhighlite">Rs.1510/month</span></p></th>
+                <th><p>Premium<br> <span class="unhighlite">Rs.3896/month</span></p></th>
+                <th><p>Enterprise</p></th>
             </tr>
             <tr>
-                <td>Email Campaigns</td>
+                <td class="head_col">Email Campaigns</td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
                 <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Mobile-friendly email designer</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Email template library</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">SMS marketing</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Email & SMS personalization</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Chat (1 user)</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">A/B testing</td>
+                <td><i class="fa-solid fa-xmark"></i></i></td>
+                <td>Optional</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">No daily sending limit</td>
+                <td><i class="fa-solid fa-xmark"></i></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Remove Sendinblue logo</td>
+                <td><i class="fa-solid fa-xmark"></i></i></td>
+                <td>Optional</i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Landing page builder</td>
+                <td><i class="fa-solid fa-xmark"></i></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td>5 landing pages</i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Facebook ads</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col"></td>
+                <td><button class="signupOnCard">Sign up</button></td>
+                <td><button id="lite" class="signupOnCard">Sign up</button></td>
+                <td><button  id="premium" class="signupOnCard">Sign up</button></td>
+                <td><button id="enterprice" style="margin-top:10px;" class="signupOnCard">Get quote</button></td>
             </tr>
         </table>
+
+        <!-- --------------------------------- -->
+
+        <table style="margin-top:100px;">
+            <tr>
+                <th class="head_col"><p>Contact Management</p></th>
+                <th><p>Free <br> <span class="unhighlite">Rs.0/month</span></p></th>
+                <th><p>Lite<br> <span class="unhighlite">Rs.1510/month</span></p></th>
+                <th><p>Premium<br> <span class="unhighlite">Rs.3896/month</span></p></th>
+                <th><p>Enterprise</p></th>
+            </tr>
+            <tr>
+                <td class="head_col">Unlimited contacts & details</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Advanced segmentation</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Customisable signup forms</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Sales CRM</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Shared inbox</td>
+                <td>1 inbox</td>
+                <td>1 inbox</td>
+                <td>3 inbox</td>
+                <td>Unlimited</td>
+            </tr>
+            <tr>
+                <td class="head_col"></td>
+                <td><button class="signupOnCard">Sign up</button></td>
+                <td><button id="lite" class="signupOnCard">Sign up</button></td>
+                <td><button  id="premium" class="signupOnCard">Sign up</button></td>
+                <td><button id="enterprice" style="margin-top:10px;" class="signupOnCard">Get quote</button></td>
+            </tr>
+        </table>
+
+        <!-- ------------------------------- -->
+
+        <table style="margin-top:100px;">
+            <tr>
+                <th class="head_col"><p>Transactional platform</p></th>
+                <th><p>Free <br> <span class="unhighlite">Rs.0/month</span></p></th>
+                <th><p>Lite<br> <span class="unhighlite">Rs.1510/month</span></p></th>
+                <th><p>Premium<br> <span class="unhighlite">Rs.3896/month</span></p></th>
+                <th><p>Enterprise</p></th>
+            </tr>
+            <tr>
+                <td class="head_col">Transactional email and SMS sending</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Core API features</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Advanced templating language</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">No daily sending limit</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Dedicated IP included</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col"></td>
+                <td><button class="signupOnCard">Sign up</button></td>
+                <td><button id="lite" class="signupOnCard">Sign up</button></td>
+                <td><button  id="premium" class="signupOnCard">Sign up</button></td>
+                <td><button id="enterprice" style="margin-top:10px;" class="signupOnCard">Get quote</button></td>
+            </tr>
+        </table>
+
+        <!-- --------------------------------  -->
+
+        <table  style="margin-top:100px;">
+            <tr>
+                <th class="head_col"><p>Marketing Automation</p></th>
+                <th><p>Free <br> <span class="unhighlite">Rs.0/month</span></p></th>
+                <th><p>Lite<br> <span class="unhighlite">Rs.1510/month</span></p></th>
+                <th><p>Premium<br> <span class="unhighlite">Rs.3896/month</span></p></th>
+                <th><p>Enterprise</p></th>
+            </tr>
+            <tr>
+                <td class="head_col">Workflow editor</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Page tracking</td>
+                <td>Up to 2,000 contacts</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Marketing automation workflows</td>
+                <td>Up to 2,000 contacts</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col"></td>
+                <td><button class="signupOnCard">Sign up</button></td>
+                <td><button id="lite" class="signupOnCard">Sign up</button></td>
+                <td><button  id="premium" class="signupOnCard">Sign up</button></td>
+                <td><button id="enterprice" style="margin-top:10px;" class="signupOnCard">Get quote</button></td>
+            </tr>
+        </table>
+
+        <!-- --------------------------  -->
+
+
+        <table  style="margin-top:100px;">
+            <tr>
+                <th class="head_col"><p>Reporting</p></th>
+                <th><p>Free <br> <span class="unhighlite">Rs.0/month</span></p></th>
+                <th><p>Lite<br> <span class="unhighlite">Rs.1510/month</span></p></th>
+                <th><p>Premium<br> <span class="unhighlite">Rs.3896/month</span></p></th>
+                <th><p>Enterprise</p></th>
+            </tr>
+            <tr>
+                <td class="head_col">Real-time reporting</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Geography & device reporting</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Heat map reporting</td>
+                <td><i class="fa-solid fa-check"></i></</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Advanced open & click stats</td>
+                <td><i class="fa-solid fa-check"></i></</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col"></td>
+                <td><button class="signupOnCard">Sign up</button></td>
+                <td><button id="lite" class="signupOnCard">Sign up</button></td>
+                <td><button  id="premium" class="signupOnCard">Sign up</button></td>
+                <td><button id="enterprice" style="margin-top:10px;" class="signupOnCard">Get quote</button></td>
+            </tr>
+        </table>
+
+
+        <!-- -----------------------------------  -->
+
+        <table  style="margin-top:100px;">
+            <tr>
+                <th class="head_col"><p>Support & Integrations</p></th>
+                <th><p>Free <br> <span class="unhighlite">Rs.0/month</span></p></th>
+                <th><p>Lite<br> <span class="unhighlite">Rs.1510/month</span></p></th>
+                <th><p>Premium<br> <span class="unhighlite">Rs.3896/month</span></p></th>
+                <th><p>Enterprise</p></th>
+            </tr>
+            <tr>
+                <td class="head_col">Email support</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">
+                    Phone Support</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">GDPR Compliance</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">API & plugins</td>
+                <td>Basic Integrations</td>
+                <td>Basic Integrations</td>
+                <td>Basic Integrations</td>
+                <td>Basic and Advanced</td>
+            </tr>
+            <tr>
+                <td class="head_col">Multi-user access</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Dedicated account manager</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">SSO & SAML</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col">Service Level Agreement (SLA)</td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-xmark"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+            <tr>
+                <td class="head_col"></td>
+                <td><button class="signupOnCard">Sign up</button></td>
+                <td><button id="lite" class="signupOnCard">Sign up</button></td>
+                <td><button  id="premium" class="signupOnCard">Sign up</button></td>
+                <td><button id="enterprice" style="margin-top:10px;" class="signupOnCard">Get quote</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ---------------------------------------------------------------  -->
+
+    <div id="flexible_plans">
+        <h2>Flexible plans. No Commitment!</h2>
+        <p>Learn about our pricing for pay-as-you-go options</p>
     </div>
 
 </body>
