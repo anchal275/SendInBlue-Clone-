@@ -114,3 +114,56 @@ body>#top>div>h1{
 }
 
 
+/* Mid Section CSS */
+
+#container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 35px;
+    margin: auto;
+
+}
+
+#container>div>img {
+
+    width: 100%;
+
+
+}
+
+#container>div {
+    width: 350px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    margin: auto;
+
+
+}
+
+#container>div>p {
+    font-size: 14px;
+    text-align: start;
+    font-family: sans-serif;
+    color: gray;
+    padding-left: 22px;
+}
+
+h3 {
+    padding: 0 22px 0 22px;
+}
+
+.pagination{
+    margin-top: 15px;
+   text-align: center;
+}
+.pagination>button{
+    padding: 5px 15px;
+}
+.pagination>button:hover{
+    background-color: #044A75;
+    color: white;
+}
+
+
