@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9d44b956e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Pricing Page.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="pricing_plan_container">
+        <div id="pricing_heading">
+            <h2>Pricing Plans</h2>
+            <p>All plans come with unlimited contact storage.</p>
+        </div>
+        <div id="pricing_cards">
+            <div class="cards">
+                <div class="top">
+                    <h3>Free</h3>
+                    <p>Getting started with Sendinblue</p>
+                </div>
+                <div class="price">
+                    <i class="fa-solid fa-indian-rupee-sign"></i>0<span class="perMonth">/month</span>
+                </div>
+                <div class="signup">
+                    <button class="signupOnCard">Sign up</button></div>
+                <div class="feature">
+                    <p><i class="fa-solid fa-check"></i> Ulimited contacts</p>
+                    <p><i class="fa-solid fa-check"></i> Up to 300 mails per day</p>
+                    <p><i class="fa-solid fa-check"></i> Chat (1 user)</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="top">
+                    <h3 style="color:#0092FF">Lite</h3>
+                    <p>Perfect for new marketers</p>
+                </div>
+                <div class="price">
+                    <i class="fa-solid fa-indian-rupee-sign"></i><span id="value">1510</span>
+                    <span class="perMonth">/month</span>
+                    <div class="email_volume">Monthly E-mail volume</div>
+                    <div class="slidecontainer">  
+                        <input type="range" min="1510" max="6000" value="1510" class="slider" id="myRange" oninput="func(event)">
+                        <div class="items"><p>20K</p>
+                        <p>100K</p></div>
+                        <div class="mailManager"><span id="mails">20000</span> Emails</div>
+                        
+                      </div>
+                </div>
+                <div class="signup">
+                    <button id="lite" class="signupOnCard">Sign up</button></div>
+                    <div class="feature">
+                        <p>Everything in Free+ and :</p> 
+                    <p><i class="fa-solid fa-check"></i> No daily sending limit</p>
+                    <p><i class="fa-solid fa-check"></i> Email support</p>
+                    <p><i class="fa-solid fa-check"></i> Lite+ add-on: A/B testing, &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  remove Sendinblue logo,  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;advanced statistics</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="top">
+                    <h3 style="color:FFD201 ;">Premium</h3>
+                    <p>Best solution for marketing pros</p>
+                </div>
+                <div class="price">
+                    <i class="fa-solid fa-indian-rupee-sign"></i><span id="value1">3895</span>
+                    <span class="perMonth">/month</span>
+                    <div class="email_volume">Monthly E-mail volume</div>
+                    <div class="slidecontainer">  
+                        <input type="range" min="3895" max="42546" value="3895" class="slider" id="myRange1" oninput="func1(event)">
+                        <div class="items"><p>20K</p>
+                        <p>1000K</p></div>
+                        <div class="mailManager"><span id="mails1">20000</span> Emails</div>
+                        
+                      </div>
+                </div>
+                <div class="signup">
+                    <button  id="premium" class="signupOnCard">Sign up</button></div>
+                    <div class="feature">
+                     <p>Everything in Lite+ and :</p> 
+                    <p><i class="fa-solid fa-check"></i> Marketing Automation</p>
+                    <p><i class="fa-solid fa-check"></i> Facebook ads</p>
+                    <p><i class="fa-solid fa-check"></i> Landing pages</p>
+                    <p><i class="fa-solid fa-check"></i> Multi-user access</p>
+                    <p><i class="fa-solid fa-check"></i> Telephone Support</p>
+
+                </div>
+            </div>
+            <div class="cards">
+                <div class="top">
+                    <h3 style="color:#044A75 ;">Enterprice</h3>
+                    <p>For marketers who need more</p>
+                </div>
+                <div class="price">
+                    <h4 style="font-size:25px;"> Have more advanced needs ?</h4>
+                   
+                </div>
+                <div class="signup">
+                    <button id="enterprice" class="signupOnCard">Get quote</button></div>
+                <div class="feature" style="margin-top: -30px;">
+                    <p>Everything in Premium+ and :</p> 
+                    <p><i class="fa-solid fa-check"></i> Custom volume of emails</p>
+                    <p><i class="fa-solid fa-check"></i> Priorty sendings</p>
+                    <p><i class="fa-solid fa-check"></i> 20+ landing pages</p>
+                    <p><i class="fa-solid fa-check"></i> Access for 10+ users</p>
+                    <p><i class="fa-solid fa-check"></i> SSO (SAML)</p>
+                </div>
+            </div>
+        </div>
+        <div id="display_price">
+            <h4>Display price in <select name="" id="rupee">
+                <option value="">Indian Rupee</option>
+                <option value="">US Dollar</option>
+                <option value="">British Pound</option>
+                <option value="">Russian Rubal</option>
+            </select></h4> 
+        </div>
+    </div>
+                            <!-- day 1 ==> Ended -->
+    <!-- -------------------------------------------------------------------------------------- -->
+    <div id="headingAF"><h2>All Features</h2></div>
+    <div id="table">
+        <table>
+            <tr>
+                <th>Marketing</th>
+                <th>Free</th>
+                <th>Lite</th>
+                <th>Premium</th>
+                <th>Enterprise</th>
+            </tr>
+            <tr>
+                <td>Email Campaigns</td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+                <td><i class="fa-solid fa-check"></i></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
+<script>
+
+
+
+
+
+
+  function func(e){
+    e.preventDefault()
+    let slider =   document.getElementById("myRange").value
+    document.getElementById("value").innerText=slider
+    
+
+    
+    if(slider>=2305 && slider<3100){
+        let mails = document.getElementById("mails")
+        mails.innerText=40000
+    }
+    else if (slider>3100 && slider<=4691){
+        let mails = document.getElementById("mails")
+        mails.innerText=60000
+    }
+    else if(slider>4691){
+        let mails = document.getElementById("mails")
+        mails.innerText=100000
+    }
+    else{
+        let mails = document.getElementById("mails")
+        mails.innerText=20000
+    }
+
+  }
+
+
+
+  function func1(e){
+    e.preventDefault()
+
+    let slider =   document.getElementById("myRange1").value
+    document.getElementById("value1").innerText=slider
+    
+
+    
+    if(slider>=3896 && slider<4690){
+        let mails = document.getElementById("mails1")
+        mails.innerText=20000
+    }
+    else if (slider>4690 && slider<=5485){
+        let mails = document.getElementById("mails1")
+        mails.innerText=60000
+    }
+    else if(slider>5484 && slider<=7075){
+        let mails = document.getElementById("mails1")
+        mails.innerText=100000
+    }
+    else if(slider>7075 && slider<=12640){
+        let mails = document.getElementById("mails1")
+        mails.innerText=250000
+    }
+    else if(slider>12640 && slider<=22180){
+        let mails = document.getElementById("mails1")
+        mails.innerText=450000
+    }
+    else if(slider>22180 && slider<=39760){
+        let mails = document.getElementById("mails1")
+        mails.innerText=750000
+    }
+    else if(slider>39761){
+        let mails = document.getElementById("mails1")
+        mails.innerText=1000000
+    }
+
+  }
+                                    //  day 1 ==> Ended
+    // <!------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+</script>
