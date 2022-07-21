@@ -195,4 +195,17 @@
     border-radius: 20px;
 }
 
+#headingAF >h2{
+    font-size: 50px;
+    text-align: center;
+    color: #091e3f;
+    margin-top: 70px;
+}
+
+#table{
+    border: 1px solid black;
+    width: 88%;
+    height: 200px;
+    margin-left: 100px;
+}
 
