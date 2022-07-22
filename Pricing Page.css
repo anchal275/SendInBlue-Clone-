@@ -3,7 +3,7 @@
 #pricing_plan_container{
     height: 1200px;
     width: 103%;
-    border-bottom: 0.5px solid #606469;
+    /* border-bottom: 0.5px solid #606469; */
     /* padding-left: 15px;
     padding-right: 15px; */
 }
@@ -206,7 +206,7 @@
     /* border: 1px solid black; */
     width: 82%;
     height: auto;
-    margin-left: 150px;
+    /* margin-left: 40px; */
     
 }
 
@@ -264,13 +264,153 @@ td{
     color: #091e3f;
     text-align: center;
     width: 100%;
-    height: 400px;
-    border: 1px solid black;
+    height: auto;
+    /* border: 1px solid black; */
     margin-top: 100px;
+    background-color: #e7e7df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
 }
 
 #flexible_plans > p{
     font-size: 18px;
     color: #606469;
     margin-top: -25px;
+    
 }
+
+#plans{
+    height: auto;
+    width: 80%;
+    /* border-top: 1px solid black; */
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+   
+}
+
+#plans > button{
+    width: 80%;
+    height: 75px;
+    text-align: left;
+    border-radius: 12px;
+    border: 0px;
+    background-color: white;
+    font-size: 14px;
+    text-indent: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d{
+    margin-right: 20px;
+    transform: rotate(0);
+}
+
+#mail{
+    height: auto;
+    width: 80%;
+    /* border-top: 1px solid #606469; */
+    background-color: white;
+    margin-top: -24px;
+    /* display: none; */
+    padding-bottom: 25px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#mail_select{
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+#sms{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+    background-color: white;
+    margin-top: -25px;
+    /* display: none; */
+    padding-bottom: 25px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+#sms_select{
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+#FAQ{
+    width: 85%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 70px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#FAQ > h2 {
+    font-size: 35px;
+    color: #091e3f;
+    text-align: center;
+    font-size: 46px;
+    
+}
+
+#questions{
+    height: auto;
+    width: 83%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 6px;
+    
+}
+
+.Q{
+    font-size: 18px;
+    color: #091e3f;
+    text-align: left;
+}
+
+#questions > div > button {
+    background-color: #f3f1ee;
+    border: 0px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    width: 100%;
+    margin-top: 9px;
+}
+
+.detail{
+    background-color: #f3f1ee;
+    border: 0px;
+    border-radius: 8px;
+    text-align: center   ;
+    height: auto;
+    padding: 35px;
+    margin-top: -5px;
+    font-size: 20px;
+    color: #606469;
+}
+
