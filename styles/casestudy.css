@@ -327,11 +327,13 @@ img:hover{
                 color:#0092ff;
              
                }
+               /* *****before footerpage */
                #lastd{
                 height: 500px;
                 width:100%;
                 background-color:#091e3f;
                 color: white;
+                margin-top: 50px;
             }
             #lastd>div{
                 padding-top:120px;
@@ -351,10 +353,7 @@ img:hover{
                   margin-left: 190px;
                   
                 }
-                #h2tag{
-                    font-size: ;
-                    font-weight: 300;
-                }
+             
               
 
 
