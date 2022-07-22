@@ -494,6 +494,60 @@
     <div id="flexible_plans">
         <h2>Flexible plans. No Commitment!</h2>
         <p>Learn about our pricing for pay-as-you-go options</p>
+        <div id="plans">
+            <button onclick="showmail(event)"><span><i class="fa-solid fa-envelope"></i> &nbsp; E-mails </span><span class="d"><i class="fa-solid fa-plus"></i></span></button>
+            <div id="mail" style="display:none ;">
+                <h3>Pre-paid email credits</h3>
+                <p style="font-size:16px; margin-top:-30px">Purchase email credits to be used outside of your regular plan volume. No expiration date.</p>
+                <p style="font-size:16px;">I want to send<select name="" id="mail_select">
+                    <option value="5000">5000</option>
+                </select>Emails</p>
+                <div><i class="fa-solid fa-indian-rupee-sign"></i>2424.0</div>
+                <button id="lite" class="signupOnCard" style="width:160px ;margin-top:20px">Sign up</button>
+
+            </div>
+            <button onclick="showsms(event)"><span><i class="fa-solid fa-sms"></i>&nbsp; SMS </span><span class="d"><i class="fa-solid fa-plus"></i></span></button>
+            <div id="sms" style="display:none ;">
+                <h3>Pre-paid SMS credits</h3>
+                <p style="font-size:16px; margin-top:-30px">Purchase email credits to be used outside of your regular plan volume. No expiration date.</p>
+                <p style="font-size:16px;">I want to send <select name="" id="sms_select">
+                    <option value="5000">1000</option>
+                </select> mobile text messages</p>
+                <div><i class="fa-solid fa-euro-sign"></i>8.70</div>
+                <button id="lite" class="signupOnCard" style="width:160px ;margin-top:20px">Sign up</button>
+
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- ------------------------------------------------------  -->
+    <!-- FAQ -->
+
+    <div id="FAQ">
+        <h2>FAQ</h2>
+        <div id="questions">
+            <div class="Qset">
+                <button onclick="q1(event)"><h2 class="Q">Do I have to enter my credit card details to sign up?</h2><i class="fa-solid fa-plus"></i></button>
+                  <div id="q1" class="detail" style="display:none ;"> No, we need only your email address and the name of your organization,and then you will be able to start creation your campaigns</div>
+            <button><h2 class="Q">Can I try Sendinblue before purchasing a plan?</h2><i class="fa-solid fa-plus"></i></button>
+
+            <button><h2 class="Q">Do I need any prior knowledge or skills?</h2><i class="fa-solid fa-plus"></i></button>
+            <button  onclick="q2(event)"><h2 class="Q">What if I change my mind?</h2><i class="fa-solid fa-plus"></i></button>
+                 <div id="q2" class="detail" style="display:none ;"> No, we need only your email address and the name of your organization,and then you will be able to start creation your campaigns</div>
+
+            <button><h2 class="Q">Are there any contracts?</h2><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="Qset">
+                <button><h2 class="Q">How can I pay?</h2><i class="fa-solid fa-plus"></i></button>
+            <button onclick="q3(event)"><h2 class="Q">Why choose a pay-as-you-go plan?</h2><i class="fa-solid fa-plus"></i></button>
+            <div id="q3" class="detail" style="display:none ;"> As you go plan is ideal for business and organization, that dont send emails often, or that dont hava large contact list. </div>
+                
+            <button><h2 class="Q">What is a dedicated IP?</h2><i class="fa-solid fa-plus"></i></button>
+            <button><h2 class="Q">Can I use my monthly plan for transactional email only?</h2><i class="fa-solid fa-plus"></i></button>
+            <button><h2 class="Q">Still have questions?</h2><i class="fa-solid fa-plus"></i></button>
+            </div>
+        </div>
     </div>
 
 </body>
@@ -578,6 +632,69 @@
 
 
 
+function showmail(e){
+    e.preventDefault()
+
+    let mail = document.getElementById("mail")
+    if(mail.style.display=="none"){
+        mail.style.display="block"
+    }
+    else{
+        mail.style.display="none"
+    }
+}
+
+function showsms(e){
+    e.preventDefault()
+
+    let mail = document.getElementById("sms")
+    if(mail.style.display=="none"){
+        mail.style.display="block"
+    }
+    else{
+        mail.style.display="none"
+    }
+}
+
+
+function q1(e){
+    e.preventDefault();
+
+    let div = document.getElementById("q1")
+
+    if(div.style.display=="none"){
+        div.style.display="block"
+    }
+    else{
+        div.style.display="none"
+    }
+}
+
+function q2(e){
+    e.preventDefault();
+
+    let div = document.getElementById("q2")
+
+    if(div.style.display=="none"){
+        div.style.display="block"
+    }
+    else{
+        div.style.display="none"
+    }
+}
+
+function q3(e){
+    e.preventDefault();
+
+    let div = document.getElementById("q3")
+
+    if(div.style.display=="none"){
+        div.style.display="block"
+    }
+    else{
+        div.style.display="none"
+    }
+}
 
 
 
