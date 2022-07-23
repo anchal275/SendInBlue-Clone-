@@ -6,9 +6,9 @@ document.querySelector("#footer").innerHTML = footer();
 
 let arrayOfImages = [];
 
-arrayOfImages.push('https://unsplash.com/photos/o53GvDyGdSI');
-arrayOfImages.push('moonlit-hour-2126\images\Screenshot (61).png');
-arrayOfImages.push('moonlit-hour-2126\images\Screenshot (63).png');
+arrayOfImages.push('./images/Screenshot (61).png');
+arrayOfImages.push('./images/Screenshot (62).png');
+arrayOfImages.push('./images/Screenshot (63).png');
 
 let id;
     let i=0
@@ -23,7 +23,7 @@ let id;
            container.innerHTML=""
            container.append(img)
            i++
-        },1000)
+        },3000)
     }
     slideshow()
 
