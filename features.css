@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@ayush19031998 
+anchal275
+/
+moonlit-hour-2126
+Private
+Code
+Issues
+14
+Pull requests
+Actions
+Projects
+2
+Security
+Insights
+moonlit-hour-2126/features.css
+@ayush19031998
+ayush19031998 email api page
+Latest commit f1a7a08 34 minutes ago
+ History
+ 1 contributor
+251 lines (225 sloc)  3.42 KB
+
 *{
     margin:0;
     padding:0;
@@ -38,22 +67,23 @@ color:#091e3f;
     color: #606469;  
     font-size: 24px;
     line-height: 30px;
+    margin-top: -8px;
 }
 .header>div>button{
     background-color: #0092ff;
-    padding: 17px 30px 17px 30px;
+    padding: 17px 32px 17px 32px;
     border-radius: 30px;
     color: white;
     font-weight: bold;
     font-size: 18px;
     border: none;
-    margin-top: 65px;
+    margin-top: 45px;
 }
 .header>.image{
 
     position:absolute;
-    right:160px;
-    top:70px;
+    right:270px;
+    top:60px;
     height: 400px;
     width: 500px; 
 }
@@ -126,17 +156,20 @@ font-size: 18px;
 }
 #g{
     margin-top: 20px;
+    
 }
 .D{
     display:flex;
     color:#0092ff;
-    margin-top: 10px;
+    margin-top: 
+
     
 }
 .D>p{
-    color:rgb(88,30,119);
+    color:#091e3f;
     text-align: left;
     margin-left: 6px;
+    margin-top:-6px;
 }
 .h{
     margin-top: 20px;
@@ -185,7 +218,7 @@ font-size: 18px;
 .L{
     font-size: 28px;
     color:#091e3f;
-    margin-top: 60px;
+    margin-top: 180px;
 
 }
 .L>h1{
@@ -200,28 +233,13 @@ color:#091e3f;
 .M>p{
     line-height: 25px;
 }
-/* .content{
-    border-collapse: collapse;
-   margin: 25px 0;
-   font-size: 0.9em;
-   min-width: 400px;
-   
-}
-.content thead tr{
-    text-align: left;
-    font-weight: bold;
-}
-.content th, .content td{
-    padding: 8px 8px;
-}
-.content tbody tr{
-    border-bottom:1px solid #7a6481;
-} */
+
 table{
     width:35%;
     border-collapse: collapse;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 40px;
 }
 table,td{
     border: 1px solid #606469;  
@@ -240,6 +258,8 @@ th{
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom:none;
+
 }
 
 td{
@@ -249,3 +269,285 @@ td{
     color:#091e3f; 
     border-left: none;
 }
+/* ** */
+
+.t{
+    text-align: center;
+}
+#v{
+    border-bottom: none;
+}
+#w{
+    border-bottom:none;
+}
+/* chart finish */
+#z{
+    margin-top: 80px; 
+    color: #0092ff;
+ 
+}
+#z>a{
+    color: #0092ff; 
+    text-decoration: none;
+    font-weight: bold;
+}
+#z>a:hover{
+    margin-left:20px;
+}
+.heading{
+    color:#091e3f; 
+    margin-top:80px;
+    font-size: 27px;
+
+}
+#chart{
+    height:550px;
+    width:100%;
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    gap:100px;
+}
+#chart>div{
+    margin-right:70px;
+}
+
+#chart>div>div{
+    display:flex;
+    text-align: left;
+    
+}
+#chart>div>div>div{
+    height:20px;
+    width: 30px;
+}
+#chart>div>div>div>img{
+width:100%;
+}
+#chart>div>div>h3{
+    margin-top: -5px;
+    margin-left: 10px;
+    color:#091e3f; 
+    }
+    #chart>div>p{
+        margin-left: 30px;
+        margin-top:20px;
+        text-align: left;
+        line-height: 25px;
+    }
+    .newhead{
+        margin-top:50px;
+        font-size: 25px;
+        color:#091e3f; 
+    }
+    .newpara{
+        margin-top: 30px;
+    }
+.discover{
+    font-size: 28px;
+    color:#091e3f; 
+    margin-top: 80px;
+    line-height: 48px;
+    
+}
+
+
+
+
+#search{
+    height:550px;
+    width:100%;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap:30px;
+    margin-right: 60px;
+}
+
+
+#search>div>div{
+    display:flex;
+    text-align: left;
+    
+}
+#search>div>div>div{
+    height:20px;
+    width: 30px;
+}
+#search>div>div>div>img{
+width:100%;
+}
+#search>div>div>h3{
+    margin-top: -5px;
+    margin-left: 10px;
+    color:#091e3f; 
+    }
+    #search>div>p{
+        margin-left: 30px;
+        margin-top:20px;
+        text-align: left;
+        line-height: 25px;
+    }
+    #zz{
+        margin-top: 80px; 
+        color: #0092ff;
+        margin-left: 28px;
+     
+    }
+    #zz>a{
+        color: #0092ff; 
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 10px;
+        
+    }
+    #zz>a:hover{
+        margin-left:20px;
+    }
+/* *** */
+    #dev{
+        width:100%;
+         height: 700px; 
+        background-color: #ffffff;
+        position: relative;
+        margin-top: -50px;
+    
+    }
+    
+    #dev>div{
+       
+        width:40%;
+        
+        margin-left: 680px;
+     
+    }
+    #dev>div>h1{
+        color:#091e3f; 
+        font-size: 55px;
+        text-align: left;
+    
+    }
+    .E{
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: left;
+        color: #606469;  
+        
+    }
+    .all{
+        color:#091e3f; 
+    }
+.allin{
+    color:#091e3f; 
+}
+
+#dev>#newimg{
+    position:absolute;
+ right:720px;
+    height: 300px;
+    width: 450px;
+    
+
+}    
+#newimg>img{
+    width:100%;
+}
+#ff{
+  text-align: left;  
+}
+/* ******* */
+#dev2{
+    width:100%;
+     height: 700px; 
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 
+
+}
+
+#dev2>div{
+   
+    width:40%;
+    margin-left: 150px;
+    
+ 
+}
+#dev2>div>h1{
+    color:#091e3f; 
+    font-size: 55px;
+    text-align: left;
+
+}
+.E{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #606469;  
+    
+}
+
+#dev2>#newimg{
+position:absolute;
+left:600px;
+height: 300px;
+width: 450px;
+
+
+}    
+#newimg>img{
+width:100%;
+}
+#ff{
+text-align: left;  
+}
+.para1{
+    color:#091e3f; 
+}
+/* ************************** */
+#lastdiv{
+    height: 300px;
+    width:85%;
+    
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    background-color: 
+    #eeeceb;
+    gap:70px;
+}
+
+#lastdiv>div{
+    text-align: left;
+    margin-top: 40px;
+}
+#lastdiv>div>h1{
+    color:#091e3f; 
+}
+#lastdiv>div>button{
+    background-color: #0092ff;
+    padding: 20px 40px 20px 40px;
+    border-radius: 30px;
+    margin-top: 90px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border:none;
+}
+#lastdiv>div>button:hover{
+    background-color:#091e3f ;
+}
+#ll{
+    height:100px;
+    width:100px;
+
+}
+#ll>img{
+    width:100%;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
