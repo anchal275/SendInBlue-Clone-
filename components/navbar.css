@@ -47,14 +47,16 @@ svg{
 }
 #btn{
     cursor: pointer;
-    text-decoration: none;
     border-radius: 30px;
     background-color: #0092ff;
-    color: white;
-    font-weight: 800;
     border: none;
     transition: all .25s ease;
     padding: 17px 30px;
+}
+#btn>a{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
 }
 #btn:hover{
     background-color: #044A75;
