@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <img src="https://searchvectorlogo.com/wp-content/uploads/2020/08/sendinblue-logo-vector.png" alt=""> -->
+    <div id="body">
+        <div id="signup_form">
+            <div id="logo">
+                <img class="umg" src="data:image/png;base64,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" alt="">
+            </div>
+            <div id="form">
+                <form action="" onsubmit="create_account(event)">
+                    <h1>Create your own account. No credit cards needed.</h1>
+                    <p>See your first emails in few minutes. Already have an account ? <a href="">Login</a></p>
+                    <label for="name">Name</label>
+                    <input type="text" class="input" id="name"  required>
+                    <label for="mail">Email</label>
+                    <input type="email" class="input" id="mail"  required>
+                    <label for="pass">Password</label>
+                    <input type="password" class="input" id="pass" style="margin-bottom:28px ;"  required>
+                    <input class="submit" type="submit" value="Create account">  
+                </form>
+                <div id="otpbox" style="display: none;">
+                    <form action="" onsubmit="confirmation(event)">
+                        <p>OTP is sent to your registered Email id. Enter it in below box.</p>
+                        <input class="input" type="text" id="otpval">
+                        <input type="submit" class="submit">
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="sidebar">
+            <img class="umg" src="https://sendinblue.fra1.digitaloceanspaces.com/fra1.digitaloceanspaces.com/marketing-content-media/register.webp" alt="">
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+
+class User{
+    constructor(n,e,p){
+         this.name=n;
+         this.email=e;
+         this.password=p
+    }
+}
+
+
+
+var num;
+
+function create_account(e){
+    e.preventDefault()
+
+    let otpbox = document.getElementById("otpbox")
+
+    if(otpbox.style.display=="none"){
+        otpbox.style.display="block"
+    }
+    else{
+        otpbox.style.display="none"
+    }
+
+   
+
+
+    setTimeout(function(){
+    num = Math.floor(Math.random() * 10000);
+    alert(`Your OTP is ${num}`)
+    },3000)
+
+}
+
+
+let arrofUsers = JSON.parse(localStorage.getItem("userData")) || []
+
+
+function confirmation(e){
+    e.preventDefault()
+
+    let otpval = document.getElementById("otpval").value
+
+    if(otpval==num){
+
+        let name = document.getElementById("name").value
+        let email = document.getElementById("mail").value
+        let password = document.getElementById("pass").value
+
+        let user = new User(name,email,password)
+
+        if(checkuser(user.email)==true){
+            alert ("User already exist")
+
+
+        let otpbox = document.getElementById("otpbox")
+            otpbox.style.display="none"
+
+            document.getElementById("name").value=null
+            document.getElementById("mail").value=null
+            document.getElementById("pass").value=null
+        }
+        else{
+            arrofUsers.push(user)
+            localStorage.setItem("userData",JSON.stringify(arrofUsers))
+            alert ("Signup successful !!")
+        }
+        
+    }
+    else{
+        alert ("Wrong OTP. Please enter correct OTP.")
+        let otpbox = document.getElementById("otpbox")
+        otpbox.style.display="none"
+
+        document.getElementById("name").value=null
+        document.getElementById("mail").value=null
+        document.getElementById("pass").value=null
+    }
+
+
+    
+}
+
+
+function checkuser(y){
+ 
+    let count = 0
+   let filtering = arrofUsers.filter(function(ele){
+    return ele.email==y
+   })
+
+  
+   if (filtering.length>0){
+    return true
+   }
+   else{
+    return false
+   }
+}
+
+
+</script>

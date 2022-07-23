@@ -7,9 +7,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    width: 90%;
-    top: 0;
-    left: 0;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,4 +85,10 @@ svg{
 
 header .nav-list li:hover > .nav-dropdown{
  display: block;
+}
+.input, .input__button {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    color: inherit;
+    outline: 0;
 }
