@@ -7,9 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="./components/footer.css">
+    <link rel="stylesheet" href="./components/navbar.css">
 </head>
 
 <body>
+
+    <header></header>
+    
+
+
+
+
     <div id="top">
 
         <div>
@@ -155,6 +164,9 @@
         <br>
         <br>
 
+        
+
+        <div id="footer"></div>
 
 
 </body>
@@ -162,5 +174,16 @@
 </html>
 
 
-<script src="blog.js"></script>
+<script src="blog.js"  >
+
+    
+</script>
+
+<script type="module">
+import {navbar} from "./components/navbar.js"
+document.querySelector("header").innerHTML = navbar();
+import {footer} from "./components/footer.js"
+document.querySelector("#footer").innerHTML = footer();
+</script>
+
 
