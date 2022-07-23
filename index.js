@@ -6,7 +6,7 @@ document.querySelector("#footer").innerHTML = footer();
 
 let arrayOfImages = [];
 
-arrayOfImages.push('../moonlit-hour-2126\images\Screenshot (61).png');
+arrayOfImages.push('https://unsplash.com/photos/o53GvDyGdSI');
 arrayOfImages.push('moonlit-hour-2126\images\Screenshot (61).png');
 arrayOfImages.push('moonlit-hour-2126\images\Screenshot (63).png');
 
