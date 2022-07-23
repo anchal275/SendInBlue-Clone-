@@ -27,10 +27,10 @@
     font-weight: bold;
     margin-bottom: 40px;
 }
-#container-video{
-    border: 1px solid red;
+/* #container-video{
+   width: 100;
     
-}
+} */
 #container-text>p{
     font-size: 20px;
     color: #606469;
@@ -636,6 +636,9 @@ h2 {
 }
 #cm-section-start .container-text:hover a{
     background-color: #091e3f;
+}
+#slide>img{
+    width: 100%;
 }
 
 

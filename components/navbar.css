@@ -88,3 +88,9 @@ svg{
 header .nav-list li:hover > .nav-dropdown{
  display: block;
 }
+.input, .input__button {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    color: inherit;
+    outline: 0;
+}
