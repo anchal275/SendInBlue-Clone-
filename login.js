@@ -1,20 +1,23 @@
 
 
-let userfromLs = JSON.parse(localStorage.getItem("usedData")) 
+
+
+let userfromLs = JSON.parse(localStorage.getItem("userData")) 
 console.log(userfromLs)
 
-document.querySelector("#login_submit").addEventListener("click",login)
+document.querySelector("form").addEventListener("submit",login)
 
 function login(event){
+  console.log("inside")
     event.preventDefault()
-    let email = document.querySelector("#login_email").value;
-    let password = document.querySelector("#login_password").value;
+    let email = document.querySelector("#email").value;
+    let password = document.querySelector("#password").value;
     if(email=="" && password==""){
         alert("Please fill All the Form Details")
     }else{
         if(checkEmail(email)==true && checkPassword(password)==true ){
             alert("Login Successfully")
-            window.location.href="index.html" 
+            window.location.href="./index.html" 
             let username = userfromLs[userfromLs.length-1].name
             console.log(username)
             localStorage.setItem("login",username)

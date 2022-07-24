@@ -109,8 +109,10 @@ function confirmation(e){
         }
         else{
             arrofUsers.push(user)
+            console.log(arrofUsers)
             localStorage.setItem("userData",JSON.stringify(arrofUsers))
             alert ("Signup successful !!")
+            window.location.href="login.html"
         }
         
     }
