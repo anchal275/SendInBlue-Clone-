@@ -38,8 +38,9 @@
         
     }
     .para{
-margin-top: -20px;
+        margin-top: 20px;
     }
+   
 /* ***************************************** */
 #mainDiv>#image{
     height:300px;
@@ -76,7 +77,8 @@ text-align: center;
     color:
     #7a6469;
     font-size: 21px;
-    margin-top:-10px;
+    margin-top: 20px;
+    
 }
 /* ************ */
 #selectors{
@@ -109,6 +111,7 @@ select{
     gap:30px;
     margin-left: 150px;
     margin-top: 70px;
+
 }
 
 #container>div>.img1{
@@ -135,6 +138,7 @@ img:hover{
     padding:8px;
     margin-top: 10px;
     margin-bottom: 30px;
+    
 }
 #container>div>a{
     text-decoration: none;
@@ -218,7 +222,10 @@ img:hover{
                     #container>div>h2>{
                         color:
                         #091e3f;
+                        
+                        
                     }  
+                   
                  #img2button{
                         border:1 px solid black;
                         font-weight: bold;
@@ -247,8 +254,14 @@ img:hover{
                         margin-top: 10px;
                         margin-bottom: 30px;
                     }
+                   #container>div>div>button{
+                    margin-left:5px;
+                    margin-top:5px;
+                
+                    
+                   }
                    #button6{
-                    margin-bottom: 30px;
+                    margin-top: 20px;
                    }
                    #newbutton{
                     margin-top: 70px;

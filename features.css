@@ -1,4 +1,4 @@
-Skip to content
+/* Skip to content
 Search or jump to…
 Pull requests
 Issues
@@ -25,7 +25,7 @@ ayush19031998 email api page
 Latest commit f1a7a08 34 minutes ago
  History
  1 contributor
-251 lines (225 sloc)  3.42 KB
+251 lines (225 sloc)  3.42 KB */
 
 *{
     margin: 0;
@@ -82,7 +82,7 @@ color:#091e3f;
 .header>.image{
 
     position:absolute;
-    right:270px;
+    right:100px;
     top:60px;
     height: 400px;
     width: 500px; 
@@ -135,6 +135,9 @@ font-size: 18px;
     width:40%;
     
     margin-left: 680px;
+    line-height: 30px;
+
+    
  
 }
 #devlopers>div>h1{
@@ -142,13 +145,16 @@ font-size: 18px;
     font-size: 55px;
     text-align: left;
 
+
+
 }
 .E{
     margin-top: 30px;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 15px;
+line-height: 15px;
     text-align: left;
     color: #606469;  
+
     
 }
 .F{
@@ -161,7 +167,7 @@ font-size: 18px;
 .D{
     display:flex;
     color:#0092ff;
-    margin-top: 
+    
 
     
 }
@@ -175,16 +181,17 @@ font-size: 18px;
     margin-top: 20px;
     text-align: left;
     
+    
  
 }
 .h>p{
     line-height: 23px;
 }
 #J{
-    margin-top: 80px; 
+    
     color: #0092ff;
     text-align: left;
-    
+    margin-top: 30px;
  
 }
 #J>a{
@@ -218,7 +225,7 @@ font-size: 18px;
 .L{
     font-size: 28px;
     color:#091e3f;
-    margin-top: 180px;
+    margin-top: 300px;
 
 }
 .L>h1{
@@ -464,7 +471,6 @@ width:100%;
      height: 700px; 
     background-color: #ffffff;
     position: relative;
-    margin-top: 
 
 }
 
