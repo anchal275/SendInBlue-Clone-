@@ -642,3 +642,124 @@ h2 {
 }
 
 
+
+
+
+/* --------------------------------------------------------------------------------- */
+
+.blue-part{
+    height: 650px ;
+    width: 1368px;
+    
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows:repeat(2,50%) ;
+    background-color: #044A75;
+
+}
+
+.thirdDiv{
+    display: grid;
+    
+    align-items:flex-start;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows:repeat(2,50%) ;
+    
+}
+
+
+.secondDiv{
+    display: grid;
+    grid-template-columns:repeat(2,41%) ;
+    grid-template-rows:repeat(1,100%) ;
+}
+
+
+.fourthDiv{
+    display: grid;
+    grid-template-columns:repeat(2,41%) ;
+    grid-template-rows:repeat(1,100%) ;
+}
+
+
+/* Text Styling */
+.blue-part>div>h1{
+    font-size: 50px;
+    padding: 75px 0 0 150px;
+    font-family: none;
+    color: white;
+}
+.thirdDiv>div>h4{
+    font-size: 32px;
+    padding-left: 150px;
+    font-family: none;
+    color: white;
+    
+}
+.thirdDiv>div>h4+p{
+    font-size: 18px;
+    padding-left: 150px;
+    color: white;
+}
+
+.logo1{
+    
+    width: 100%;
+    background-image: url("logo1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 3s;
+
+    animation-name: animate ;
+    animation-direction: alternate-reverse ;
+    animation-duration:9s ;
+    animation-fill-mode:forwards ;
+    animation-iteration-count:infinite ;
+    animation-play-state:running ;
+    animation-timing-function:ease-in-out ;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url(logo1.png);
+    }
+    20%{
+        background-image: url(logo2.png);
+    }
+    40%{
+        background-image: url(logo3.png);
+    }
+    
+} 
+
+.logo2{
+    width: 100%;
+    background-image: url("logo4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate2 ;
+    animation-direction: alternate-reverse ;
+    animation-duration:10s ;
+    animation-fill-mode:forwards ;
+    animation-iteration-count:infinite ;
+    animation-play-state:running ;
+    animation-timing-function:ease-in-out ;
+}
+
+@keyframes animate2{
+    0%{
+        background-image: url(logo4.png);
+    }
+    20%{
+        background-image: url(logo5.png);
+    }
+    40%{
+        background-image: url(logo6.png);
+    }
+    
+} 

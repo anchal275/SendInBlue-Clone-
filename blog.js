@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 var boxData = [{ image: "https://www.sendinblue.com/wp-content/uploads/2022/01/klaviyo_alternatives-300x116.png", date: "July 18,2022", head: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, aut voluptates earum quas nulla veritatis?", desc: "Reading time about 12 min" },
 
 { image: "https://www.sendinblue.com/wp-content/uploads/2017/12/emojis_in_email-300x116.png", date: "July 15,2022", head: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, aut voluptates earum quas nulla veritatis?", desc: "Reading time about 12 min" },
