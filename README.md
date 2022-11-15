@@ -3,10 +3,10 @@ Sendinblue is a SaaS solution for relationship marketing. This project were comp
 SendinBlue Clone – Project Work
 Unit-4 Construct Week Project
 
-About
+# About
 About this project: This is a Individual project, built by me in the Construct Week - Unit 4 at Masai School. This is useful for our company and Emails Data I have implemented all functionality of this website such as Solution, Pricing, Features, Resource, Blog, Plan, Login/Signup, etc. In this project I used HTML, Css, JavaScript, React and I used Some other css library like Bootstrap.
 
-Description
+# Description
 Sendinblue is the only all-in-one digital marketing platform empowering B2B and B2C businesses, ecommerce sellers and agencies to build customer relationships through end to end digital marketing campaigns, transactional messaging, and marketing automation.
 
 Deployment
