@@ -13,9 +13,9 @@ Deployment
 To deploy this project run https://effervescent-starship-7a076b.netlify.app/
 
 # Tech Stacks used
-HTML – 2.0%
-CSS – 4.5%
-JAVASCRIPT-93.5%
+- HTML 
+- CSS
+- JAVASCRIPT
 
 # Solution Page:-
 This is the main landing page of our website. Here clicking on any option on the Navbar will redirect the user to the respective Page. It is fully functional and responsive.
